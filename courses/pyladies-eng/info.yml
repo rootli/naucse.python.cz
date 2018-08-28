@@ -1,0 +1,140 @@
+title: Beginners course
+description: Learn Python from the beginning. No previous knowledge required!
+long_description: |
+
+    You can find here all materials for the English version of PyLadies
+    Czechia.
+
+    All lectures are for complete beginners.
+    Instructions are for Linux, Windows and macOS.
+canonical: true
+vars:
+  coach-present: true
+plan:
+- title: Installation
+  slug: install
+  materials:
+  - lesson: beginners-eng/cmdline
+  - lesson: beginners-eng/install
+  - lesson: beginners-eng/first-steps
+  - lesson: beginners-eng/install-editor
+  - lesson: beginners-eng/install
+
+
+- title: First program
+  slug: hello
+  materials:
+  - lesson: beginners-eng/hello-world
+  - lesson: beginners-eng/print
+  - lesson: beginners-eng/variables
+  - lesson: beginners-eng/comparisons
+  - lesson: beginners-eng/and-or
+  - title: Python summary (PDF)
+    url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf
+    type: cheatsheet
+
+- title: Loops
+  slug: loops
+  materials:
+  - lesson: beginners-eng/functions
+  - lesson: beginners-eng/turtle
+  - lesson: beginners-eng/while
+  - title: If and Loops
+    url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_if_while.pdf
+    type: cheatsheet
+  - title: Usefull built-in functions
+    lesson: beginners-eng/homework/L3-useful functions-handout.pdf
+    type: cheatsheet
+- title: Git
+  slug: git
+  materials:
+  - lesson: beginners-eng/git/basics
+  - lesson: beginners-eng/git/branching
+  - title: Git cheatsheet
+    url: https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+    type: cheatsheet
+
+- title: Functions & strings
+  slug: def-str
+  materials:
+  - lesson: beginners-eng/def
+  - lesson: beginners-eng/str
+  - title: Functions
+    url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_functions.pdf
+    type: cheatsheet
+
+
+- title: Testing
+  slug: tests
+  materials:
+  - lesson: beginners-eng/exceptions
+  - lesson: beginners-eng/modules
+  - lesson: beginners-eng/testing
+  - lesson: beginners-eng/circular-imports
+  - title: Exceptions
+    url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_files_exceptions.pdf
+    type: cheatsheet
+
+- title: Co-operation and Open-Source
+  slug: foss
+  materials:
+  - lesson: beginners-eng/collaboration
+  - lesson: beginners-eng/ignoring
+  - lesson: beginners-eng/files
+  - title: Interactive git
+    url: http://www.ndpsoftware.com/git-cheatsheet.html
+    type: cheatsheet
+
+- title: Lists
+  slug: list
+  materials:
+  - lesson: beginners-eng/list
+  - lesson: beginners-eng/tuple
+  - title: Lists
+    url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_lists.pdf
+    type: cheatsheet
+
+- title: Graphics
+  slug: pyglet
+  materials:
+  - lesson: beginners-eng/pyglet
+  - lesson: beginners-eng/pong
+    #TODO
+  - title: Kód celé hry Pong
+    type: link
+    url: http://pyladies.cz/v1/s012-pyglet/pong.py
+    #TODO
+  - title: Tahák na Pyglet
+    url: https://pyvec.github.io/cheatsheets/pyglet/pyglet-basics-cs.pdf
+    type: cheatsheet
+
+- title: Dictionaries
+  slug: dict
+  materials:
+  - lesson: beginners-eng/dict
+  - lesson: beginners-eng/json
+  - lesson: beginners-eng/github-api
+  - title: Dicts
+    url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_dictionaries.pdf
+    type: cheatsheet
+
+- title: Classes
+  slug: class
+  materials:
+  - lesson: beginners-eng/class
+  - lesson: beginners-eng/inheritance
+  - title: Classes
+    url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_classes.pdf
+    type: cheatsheet
+
+- title: Final project
+  slug: asteroids
+  materials:
+  - lesson: beginners-eng/asteroids
+  - title: Sets
+    url: https://www.pythoncheatsheet.org/#sets
+    type: cheatsheet
+    #TODO
+  - title: Tahák na geometrii a fyziku 2D her
+    url: https://pyvec.github.io/cheatsheets/game-physics/game-physics-cs.pdf
+    type: cheatsheet
