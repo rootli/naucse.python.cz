@@ -43,13 +43,13 @@ plan:
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_if_while.pdf
     type: cheatsheet
   - title: Usefull built-in functions
-    lesson: beginners-eng/homework/L3-useful functions-handout.pdf
+    url: https://github.com/muzikovam/cheatsheets/blob/master/basic-functions/basic-functions-eng.pdf
     type: cheatsheet
 - title: Git
   slug: git
   materials:
-  - lesson: beginners-eng/git/basics
-  - lesson: beginners-eng/git/branching
+  - lesson: git-eng/basics
+  - lesson: git-eng/branching
   - title: Git cheatsheet
     url: https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
     type: cheatsheet
@@ -59,8 +59,11 @@ plan:
   materials:
   - lesson: beginners-eng/def
   - lesson: beginners-eng/str
-  - title: Functions
+  - title: Functions cheatsheet
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_functions.pdf
+    type: cheatsheet
+  - title: Strings cheatsheet
+    url: https://github.com/muzikovam/cheatsheets/blob/master/strings/strings-eng.pdf
     type: cheatsheet
 
 
@@ -71,7 +74,7 @@ plan:
   - lesson: beginners-eng/modules
   - lesson: beginners-eng/testing
   - lesson: beginners-eng/circular-imports
-  - title: Exceptions
+  - title: Exceptions cheatsheet
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_files_exceptions.pdf
     type: cheatsheet
 
@@ -90,7 +93,7 @@ plan:
   materials:
   - lesson: beginners-eng/list
   - lesson: beginners-eng/tuple
-  - title: Lists
+  - title: Lists cheatsheet
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_lists.pdf
     type: cheatsheet
 
@@ -103,9 +106,8 @@ plan:
   - title: Kód celé hry Pong
     type: link
     url: http://pyladies.cz/v1/s012-pyglet/pong.py
-    #TODO
-  - title: Tahák na Pyglet
-    url: https://pyvec.github.io/cheatsheets/pyglet/pyglet-basics-cs.pdf
+  - title: Pyglet cheatsheet
+    url: https://github.com/muzikovam/cheatsheets/blob/master/pyglet/pyglet-basics-eng.pdf
     type: cheatsheet
 
 - title: Dictionaries
@@ -132,9 +134,8 @@ plan:
   materials:
   - lesson: beginners-eng/asteroids
   - title: Sets
-    url: https://www.pythoncheatsheet.org/#sets
+    url: https://github.com/muzikovam/cheatsheets/blob/master/sets/sets-eng.pdf
     type: cheatsheet
-    #TODO
   - title: Tahák na geometrii a fyziku 2D her
-    url: https://pyvec.github.io/cheatsheets/game-physics/game-physics-cs.pdf
+    url: https://github.com/muzikovam/cheatsheets/blob/master/game-physics/game-physics-eng.pdf
     type: cheatsheet

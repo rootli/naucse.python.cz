@@ -27,7 +27,7 @@ plan:
   materials:
   - +merge
   - title: Homework (PDF)
-    lesson: beginners-eng/homework/L1-homework.pdf
+    lesson: beginners-eng/homework/l1-homework.pdf
     type: homework
 
 - base: hello
@@ -35,77 +35,59 @@ plan:
   materials:
   - +merge
   - title: Homework (PDF)
-    lesson: beginners-eng/homework/L2-homework.pdf
+    lesson: beginners-eng/homework/l2-homework.pdf
     type: homework
 
 - base: loops
   date: 2018-10-03
   materials:
   - +merge
-  - title: Homework (PDF)
-    lesson: http://pyladies.cz/v1/s003-looping/handout/handout3a.pdf
-    type: homework
 
 - base: def-str
   date: 2018-10-10
   materials:
   - +merge
   - title: Homework (PDF)
-    lesson: beginners-eng/homework/L4-homework.pdf
+    lesson: beginners-eng/homework/l4-homework.pdf
     type: homework
 
 - base: git
   date: 2018-10-17
   materials:
   - +merge
-  - title: Domácí projekty (PDF)
-    lesson: http://pyladies.cz/v1/s003-looping/handout/handout3b.pdf
-    type: homework
 
 - base: tests
   date: 2018-10-24
   materials:
   - +merge
-  - title: Domácí projekty (PDF)
-    lesson: http://pyladies.cz/v1/s005-modules/handout/handout5.pdf
-    type: homework
 
 - base: list
   date: 2018-10-31
   materials:
   - +merge
-  - title: Domácí projekty (PDF)
-    lesson: http://pyladies.cz/v1/s006-lists/handout/handout6.pdf
-    type: homework
 
 - base: foss
   date: 2018-11-07
   materials:
-    - +merge
-  - title: Domácí projekty (PDF)
-    lesson: http://pyladies.cz/v1/s005-modules/handout/handout7.pdf
-    type: homework
+  - +merge
 
 - base: pyglet
   date: 2018-11-14
   materials:
   - +merge
 
-
 - base: dict
   date: 2018-11-28
   materials:
-  - title: Tic tac toe competition
-    lesson: null
-    type: special
   - +merge
-  - title: Homework (PDF)
-    lesson: beginners-eng/homework/L8-homework.pdf
-    type: homework
 
 - base: class
   date: 2018-12-05
+  materials:
+  - +merge
 
 - base: asteroids
   date: 2018-12-12
+  materials:
+  - +merge
 

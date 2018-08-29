@@ -68,7 +68,7 @@ plan:
   - lesson: git/basics
   - lesson: git/ignoring
   - title: Gitový tahák
-    url: https://pyvec.github.io/cheatsheets/basic-git/basic-git-cs.pdf
+    url: https://pyvec.github.io/cheatsheets-eng/basic-git/basic-git-cs.pdf
     type: cheatsheet
   - title: Domácí projekty (PDF)
     url: http://pyladies.cz/v1/s003-looping/handout/handout3b.pdf
@@ -96,7 +96,7 @@ plan:
   - lesson: git/collaboration
   - lesson: beginners/files
   - title: Gitový tahák
-    url: https://pyvec.github.io/cheatsheets/basic-git/basic-git-cs.pdf
+    url: https://pyvec.github.io/cheatsheets-eng/basic-git/basic-git-cs.pdf
     type: cheatsheet
   - title: Domácí projekty (PDF)
     url: http://pyladies.cz/v1/s005-modules/handout/handout7.pdf
@@ -118,7 +118,7 @@ plan:
   materials:
   - lesson: intro/pyglet
   - title: Tahák na Pyglet
-    url: https://pyvec.github.io/cheatsheets/pyglet/pyglet-basics-cs.pdf
+    url: https://pyvec.github.io/cheatsheets-eng/pyglet/pyglet-basics-cs.pdf
     type: cheatsheet
   - lesson: projects/pong
     title: 'Praktické cvičení: Pong (bonus)'
@@ -133,7 +133,7 @@ plan:
   - lesson: beginners/micropython
     type: lesson
   - title: Tahák na NodeMCU Devkit
-    url: https://pyvec.github.io/cheatsheets/micropython/nodemcu-cs.pdf
+    url: https://pyvec.github.io/cheatsheets-eng/micropython/nodemcu-cs.pdf
     type: cheatsheet
 
 - base: dict
@@ -147,7 +147,7 @@ plan:
   - lesson: intro/json
   - lesson: projects/github-api
   - title: Slovníkový tahák
-    url: https://pyvec.github.io/cheatsheets/dicts/dicts-cs.pdf
+    url: https://pyvec.github.io/cheatsheets-eng/dicts/dicts-cs.pdf
     type: cheatsheet
 
 - base: class
