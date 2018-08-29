@@ -8,27 +8,26 @@ long_description: |
     All lectures are for complete beginners.
     Instructions are for Linux, Windows and macOS.
 canonical: true
-vars:
-  coach-present: true
+
 plan:
 - title: Installation
   slug: install
   materials:
-  - lesson: beginners-eng/cmdline
-  - lesson: beginners-eng/install
-  - lesson: beginners-eng/first-steps
-  - lesson: beginners-eng/install-editor
-  - lesson: beginners-eng/install
+  - lesson: beginners-en/cmdline
+  - lesson: beginners-en/install
+  - lesson: beginners-en/first-steps
+  - lesson: beginners-en/install-editor
+  - lesson: git-en/install
 
 
 - title: First program
   slug: hello
   materials:
-  - lesson: beginners-eng/hello-world
-  - lesson: beginners-eng/print
-  - lesson: beginners-eng/variables
-  - lesson: beginners-eng/comparisons
-  - lesson: beginners-eng/and-or
+  - lesson: beginners-en/hello-world
+  - lesson: beginners-en/print
+  - lesson: beginners-en/variables
+  - lesson: beginners-en/comparisons
+  - lesson: beginners-en/and-or
   - title: Python summary (PDF)
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc.pdf
     type: cheatsheet
@@ -36,20 +35,20 @@ plan:
 - title: Loops
   slug: loops
   materials:
-  - lesson: beginners-eng/functions
-  - lesson: beginners-eng/turtle
-  - lesson: beginners-eng/while
+  - lesson: beginners-en/functions
+  - lesson: beginners-en/turtle
+  - lesson: beginners-en/while
   - title: If and Loops
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_if_while.pdf
     type: cheatsheet
-  - title: Usefull built-in functions
+  - title: Useful built-in functions
     url: https://github.com/muzikovam/cheatsheets/blob/master/basic-functions/basic-functions-eng.pdf
     type: cheatsheet
 - title: Git
   slug: git
   materials:
-  - lesson: git-eng/basics
-  - lesson: git-eng/branching
+  - lesson: git-en/basics
+  - lesson: git-en/branching
   - title: Git cheatsheet
     url: https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
     type: cheatsheet
@@ -57,8 +56,8 @@ plan:
 - title: Functions & strings
   slug: def-str
   materials:
-  - lesson: beginners-eng/def
-  - lesson: beginners-eng/str
+  - lesson: beginners-en/def
+  - lesson: beginners-en/str
   - title: Functions cheatsheet
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_functions.pdf
     type: cheatsheet
@@ -70,10 +69,10 @@ plan:
 - title: Testing
   slug: tests
   materials:
-  - lesson: beginners-eng/exceptions
-  - lesson: beginners-eng/modules
-  - lesson: beginners-eng/testing
-  - lesson: beginners-eng/circular-imports
+  - lesson: beginners-en/exceptions
+  - lesson: beginners-en/modules
+  - lesson: beginners-en/testing
+  - lesson: beginners-en/circular-imports
   - title: Exceptions cheatsheet
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_files_exceptions.pdf
     type: cheatsheet
@@ -81,9 +80,9 @@ plan:
 - title: Co-operation and Open-Source
   slug: foss
   materials:
-  - lesson: beginners-eng/collaboration
-  - lesson: beginners-eng/ignoring
-  - lesson: beginners-eng/files
+  - lesson: git-en/collaboration
+  - lesson: git-en/ignoring
+  - lesson: beginners-en/files
   - title: Interactive git
     url: http://www.ndpsoftware.com/git-cheatsheet.html
     type: cheatsheet
@@ -91,8 +90,8 @@ plan:
 - title: Lists
   slug: list
   materials:
-  - lesson: beginners-eng/list
-  - lesson: beginners-eng/tuple
+  - lesson: beginners-en/list
+  - lesson: beginners-en/tuple
   - title: Lists cheatsheet
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_lists.pdf
     type: cheatsheet
@@ -100,8 +99,8 @@ plan:
 - title: Graphics
   slug: pyglet
   materials:
-  - lesson: beginners-eng/pyglet
-  - lesson: beginners-eng/pong
+  - lesson: beginners-en/pyglet
+  - lesson: beginners-en/pong
     #TODO
   - title: Kód celé hry Pong
     type: link
@@ -113,9 +112,9 @@ plan:
 - title: Dictionaries
   slug: dict
   materials:
-  - lesson: beginners-eng/dict
-  - lesson: beginners-eng/json
-  - lesson: beginners-eng/github-api
+  - lesson: beginners-en/dict
+  - lesson: beginners-en/json
+  - lesson: beginners-en/github-api
   - title: Dicts
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_dictionaries.pdf
     type: cheatsheet
@@ -123,8 +122,8 @@ plan:
 - title: Classes
   slug: class
   materials:
-  - lesson: beginners-eng/class
-  - lesson: beginners-eng/inheritance
+  - lesson: beginners-en/class
+  - lesson: beginners-en/inheritance
   - title: Classes
     url: https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_classes.pdf
     type: cheatsheet
@@ -132,10 +131,10 @@ plan:
 - title: Final project
   slug: asteroids
   materials:
-  - lesson: beginners-eng/asteroids
+  - lesson: beginners-en/asteroids
   - title: Sets
     url: https://github.com/muzikovam/cheatsheets/blob/master/sets/sets-eng.pdf
     type: cheatsheet
-  - title: Tahák na geometrii a fyziku 2D her
+  - title: Physics and geometry for 2D games cheatsheet
     url: https://github.com/muzikovam/cheatsheets/blob/master/game-physics/game-physics-eng.pdf
     type: cheatsheet

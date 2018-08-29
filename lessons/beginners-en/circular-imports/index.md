@@ -1,4 +1,4 @@
-## Cyclic imports
+## Circular imports
 
 In your homework about 1D tic-tac-toe you will have them in few modules.
 It will look like this:
@@ -107,7 +107,7 @@ This module is usually as `util.py` (=utility).
               └──────────────────┘
                       ▲  ▲
                       │  │
-┌──────────────────╮  │  │  ┌───────────────╮
+┌──────────────────╮ │  │   ┌───────────────╮
 │      ai.py       │  │  │  │ ticktacktoe.py│
 ├──────────────────┤  │  │  ├───────────────┤
 │ import util      │──┘  └──│ import util   │

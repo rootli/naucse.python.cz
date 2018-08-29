@@ -1,9 +1,4 @@
-<!---
-{% if var('bonus') %}
-[//]: <> [note]
-> Na tuto stránku odkazuje domácí projekt.
-{% endif %}
--->
+
 # *Or* & *and*
 
 In addition to the operators we saw in the Comparison lesson, now we will add 3 more logical (Boolean) operators to the table:

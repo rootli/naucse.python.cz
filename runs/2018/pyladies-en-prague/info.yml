@@ -15,7 +15,7 @@ long_description: |
     Instructions are for Linux, Windows and macOS.
 
     [PyLadies]: http://pyladies.cz/
-derives: pyladies-eng
+derives: pyladies-en
 vars:
   user-gender: f
   pyladies: true
@@ -27,7 +27,7 @@ plan:
   materials:
   - +merge
   - title: Homework (PDF)
-    lesson: beginners-eng/homework/l1-homework.pdf
+    url: http://ptc-garage.eu/pyladies-eng/homework/l1-homework.pdf
     type: homework
 
 - base: hello
@@ -35,7 +35,7 @@ plan:
   materials:
   - +merge
   - title: Homework (PDF)
-    lesson: beginners-eng/homework/l2-homework.pdf
+    url: http://ptc-garage.eu/pyladies-eng/homework/l2-homework.pdf
     type: homework
 
 - base: loops
@@ -48,7 +48,7 @@ plan:
   materials:
   - +merge
   - title: Homework (PDF)
-    lesson: beginners-eng/homework/l4-homework.pdf
+    url: http://ptc-garage.eu/pyladies-eng/homework/l4-homework.pdf
     type: homework
 
 - base: git
