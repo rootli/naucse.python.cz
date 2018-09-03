@@ -1,4 +1,4 @@
-# Funkce
+# Functions
 In the previous [lesson]({{ lesson_url('beginners/functions') }}) 
 we were working with functions that were written by someone else - they are
 already built-in in Python.
