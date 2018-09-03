@@ -27,7 +27,7 @@ plan:
   materials:
   - +merge
   - title: Homework (PDF)
-    url: http://ptc-garage.eu/pyladies-eng/homework/l1-homework.pdf
+    url: http://ptc-garage.eu/pyladies-en/homework/1-homework.pdf
     type: homework
 
 - base: hello
@@ -35,26 +35,32 @@ plan:
   materials:
   - +merge
   - title: Homework (PDF)
-    url: http://ptc-garage.eu/pyladies-eng/homework/l2-homework.pdf
+    url: http://ptc-garage.eu/pyladies-en/homework/2-homework.pdf
     type: homework
 
 - base: loops
   date: 2018-10-03
   materials:
   - +merge
+  - title: Homework (PDF)
+    url: http://ptc-garage.eu/pyladies-en/homework/3-homework.pdf
+    type: homework
 
 - base: def-str
   date: 2018-10-10
   materials:
   - +merge
   - title: Homework (PDF)
-    url: http://ptc-garage.eu/pyladies-eng/homework/l4-homework.pdf
+    url: http://ptc-garage.eu/pyladies-en/homework/4-homework.pdf
     type: homework
 
 - base: git
   date: 2018-10-17
   materials:
   - +merge
+  - title: Homework (PDF)
+    url: http://ptc-garage.eu/pyladies-en/homework/5-homework.pdf
+    type: homework
 
 - base: tests
   date: 2018-10-24
@@ -65,6 +71,9 @@ plan:
   date: 2018-10-31
   materials:
   - +merge
+  - title: Homework (PDF)
+    url: http://ptc-garage.eu/pyladies-en/homework/7-homework.pdf
+    type: homework
 
 - base: foss
   date: 2018-11-07
@@ -80,6 +89,9 @@ plan:
   date: 2018-11-28
   materials:
   - +merge
+  - title: Homework (PDF)
+    url: http://ptc-garage.eu/pyladies-en/homework/10-homework.pdf
+    type: homework
 
 - base: class
   date: 2018-12-05
