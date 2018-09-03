@@ -1,7 +1,7 @@
 
 # *Or* & *and*
 
-In addition to the operators we saw in the Comparison lesson, now we will add 3 more logical (Boolean) operators to the table:
+In addition to the operators we saw in the Comparison lesson, we will now add 3 more logical (Boolean) operators to the table:
 
 <table class="table">
     <tr>
@@ -12,27 +12,27 @@ In addition to the operators we saw in the Comparison lesson, now we will add 3 
     <tr>
         <td><code>and</code></td>
         <td><code>x and y</code></td>
-        <td>True is when both operands are true</td>
+        <td>True if both operands are true</td>
     </tr>
     <tr>
         <td><code>or</code></td>
         <td><code>x or y</code></td>
-        <td>True if either of the operands is true</td>
+        <td>True if either operand is true</td>
     </tr>
     <tr>
         <td><code>not</code></td>
         <td><code>not x</code></td>
-        <td>True is when operand is false<br> 
-        (complements the operand)</td>
+        <td>True if the operand is false<br> 
+        (it negates the operand)</td>
     </tr>
 </table>
 
 
 
 ```python
-# This program gives the naive life advice.
+# This program gives naive life advice.
 
-print('answer "yes" or "no".')
+print('Answer "yes" or "no".')
 happy_status = input('Are you happy?')
 if happy_status == 'yes':
     happy = True
@@ -61,13 +61,13 @@ elif happy:
     print('Try to spend less.')
 else:
     # neither happy nor rich.
-    print("I'm sorry.")
+    print("I'm sorry for you.")
 
 ```
 
 > [note]
-> Notice what will happen when you answer something other than "Yes" or "No".
+> What happens if you answer something other than "Yes" or "No"?
 >
-> Variables `happy` and `rich` won't be set and later when they are needed the program will end with error.
+> The variables `happy` and `rich` won't be set, and later when they are needed, the program will end with an error.
 >
-> We will learn how to handle errors [nex time]({{ lesson_url('beginners/exceptions') }}).
+> We will learn how to handle errors [next time]({{ lesson_url('beginners/exceptions') }}).
