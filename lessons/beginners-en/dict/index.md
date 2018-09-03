@@ -1,106 +1,102 @@
-# Slovníky
+# Dictionaries
 
-Další základní datový typ, který si představíme –
-po číslech, řetězcích, seznamech a <var>n</var>-ticích –
-jsou *slovníky* (angl. *dictionary*, `dict`).
+Another basic data type which we will instroduce is
+*dictionary*, abbr. `dict`.
 
-Podobně jako seznamy, slovníky v sobě obsahují další hodnoty.
-Na rozdíl od seznamů, ve kterých jsou všechny prvky
-uspořádané do jedné sekvence, ve slovnících máme dva druhy
-prvků: takzvaný *klíč* (angl. *key*) a *hodnotu* (angl. *value*).
-Každému klíči je přiřazena jedna hodnota.
+Similar to lists dictionaries contains values inside.
+Opposite to lists where all elements are in specific order, there are two types
+of elements in dictionaries: *key* and *value*. There exists
+exactly one value to every key (I don't want to confuse you right at the beginning
+but so you know - empty list can be also value to the key).
 
-Slovník můžeš použít, když máš několik kousků
-informací, které se dají pojmenovat, ale chceš s nimi
-pracovat jako s jednou proměnnou.
+You can use dictionary when you have some data each can be somehow named but you want 
+to work with them as one variable.
 
-Tady je slovník, který má tři klíče, a k nim příslušné tři hodnoty:
+There is a dictionary with 3 keys and each one of them has value:
 
 ```pycon
->>> ja = {'jméno': 'Anna', 'město': 'Brno', 'čísla': [3, 7]}
+>>> me = {'name': 'Marketa', 'city': 'Prague', 'numbers': [20, 8]}
 ```
 
 {# XXX - Only visible on Python 3.5 and below. How to teach this?
-Když slovník vypíšeš, pravděpodobně zjistíš,
-se klíče a hodnoty vypíšou v jiném pořadí.
-Slovníky totiž, na rozdíl od seznamů, nemají dané
-pořadí prvků – jen přiřazují hodnoty klíčům.
+When you print the dictionary you will probably find out
+that keys with values are in different order.
+Dictionaries doesn't have order of elements they are just 
+assigning values to the keys.
 #}
 
-Hodnoty ze slovníku můžeš získat podobně jako
-ze seznamu, jen místo indexu (pozice) použiješ klíč:
+You can get values from the dictionary similar was as
+from lists but instead of index you have to use the key. 
 
 ```pycon
->>> ja['jméno']
-'Anna'
+>>> me['name']
+'Marketa'
 ```
 
-Zeptáš-li se na neexistující klíč, nebude se to Pythonu líbit:
+If you would want to work with non-existent key Python won't like it:
 
 ```pycon
->>> ja['věk']
+>>> me['age']
 Traceback (most recent call last):
   File "<stdin>", line 1, in &lt;module&gt;
-KeyError: 'věk'
+KeyError: 'age'
 ```
 
-Hodnoty jdou podle klíče i měnit:
+You can also change values with keys.
 
 ```pycon
->>> ja['čísla'] = [3, 7, 42]
->>> ja
-{'jméno': 'Anna', 'město': 'Brno', 'čísla': [3, 7, 42]}
+>>> me['numbers'] = [3, 7, 42]
+>>> me
+{'name': 'Marketa', 'city': 'Prague', 'numbers': [20, 8, 42]}
 ```
 
-... nebo přidávat:
+... or add:
 
 ```pycon
->>> ja['jazyk'] = 'Python'
->>> ja
-{'jméno': 'Anna', 'město': 'Brno', 'čísla': [3, 7, 42], 'jazyk': 'Python'}
+>>> me['language'] = 'Python'
+>>> me
+{'name': 'Marketa', 'city': 'Prague', 'numbers': [20, 8, 42], 'language': 'Python'}
 ```
 
-... nebo ubírat příkazem `del`, podobně jako u seznamů:
+... or delete wit `del` command (also same as lists):
 
 ```pycon
->>> del ja['čísla']
->>> ja
-{'jméno': 'Anna', 'město': 'Brno', 'jazyk': 'Python'}
+>>> del me['numbers']
+>>> me
+{'name': 'Marketa', 'city': 'Prague', 'language': 'Python'}
 ```
 
-## Vyhledávací tabulka
+## Lookup table
 
-Trochu jiné použití slovníku, než sdružování
-„různých“ typů informací, je takzvaná
-*vyhledávací tabulka* (angl. *lookup table*).
-V ní mají typicky všechny hodnoty stejný typ.
+Another use of dictionaries than data clustering is
+so-called *lookup table*.
+There are values of same type.
 
-Taková tabulka se hodí vždycky, když je potřeba
-přiřadit nějaké hodnoty jiným hodnotám.
-Jako v telefonním seznamu, kde každému jménu přísluší
-nějaké číslo, nebo v překladovém slovníku, kde jsou slovům
-přiřazeny překlady.
+This is useful for example with phone book.
+For every name there is one phone number.
+Or other example is dictionary with words translations.
+
 
 ```python
-cisla = {
-    'Maruška': '153 85283',
-    'Terka': '237 26505',
-    'Renata': '385 11223',
-    'Michal': '491 88047',
+phones = {
+    'Mary': '153 85283',
+    'Theresa': '237 26505',
+    'Paul': '385 11223',
+    'Michael': '491 88047',
 }
 
-barvy = {
-    'hruška': 'zelená',
-    'jablko': 'červená',
-    'meloun': 'zelená',
-    'švestka': 'modrá',
-    'ředkvička': 'červená',
-    'zelí': 'zelená',
-    'mrkev': 'červená',
+colours = {
+    'pear': 'green',
+    'apple': 'red',
+    'melon': 'green',
+    'plum': 'purple',
+    'radish': 'red',
+    'cabbage': 'green',
+    'carrot': 'orange',
 }
 ```
 
-## Iterace
+## Iteration
 
 Když dáš slovník do cyklu `for`, dostaneš klíče:
 
